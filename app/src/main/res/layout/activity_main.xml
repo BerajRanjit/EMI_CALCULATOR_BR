@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:background="#E91E63"
+        android:gravity="center_horizontal"
+        android:labelFor="@id/years"
+        android:text="EMI/Month"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="-45dp"
+        android:autofillHints=""
+        android:backgroundTint="#E91E63"
+        android:digits="0123456789."
+        android:ems="7"
+        android:inputType="number|numberDecimal"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dp"
+        android:background="#E91E63"
+        android:gravity="center_horizontal"
+        android:labelFor="@id/years"
+        android:text="Total Interest"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/interest_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="-45dp"
+        android:autofillHints=""
+        android:backgroundTint="#E91E63"
+        android:digits="0123456789."
+        android:ems="7"
+        android:inputType="number|numberDecimal"
+        android:singleLine="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dp"
+        android:background="#E91E63"
+        android:gravity="center_horizontal"
+        android:labelFor="@id/principal"
+        android:text="@string/principal"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/principal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="-45dp"
+        android:autofillHints=""
+        android:backgroundTint="#E91E63"
+        android:digits="0123456789."
+        android:ems="7"
+        android:inputType="number|numberDecimal"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dp"
+        android:background="#E91E63"
+        android:gravity="center_horizontal"
+        android:labelFor="@id/interest"
+        android:text="@string/interest"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="-45dp"
+        android:autofillHints=""
+        android:backgroundTint="#E91E63"
+        android:digits="0123456789."
+        android:ems="8"
+        android:inputType="number|numberDecimal"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="50dp"
+        android:background="#E91E63"
+        android:gravity="center_horizontal"
+        android:labelFor="@id/years"
+        android:text="Years"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/years"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="-45dp"
+        android:autofillHints=""
+        android:backgroundTint="#E91E63"
+        android:digits="0123456789."
+        android:ems="7"
+        android:inputType="number|numberDecimal"
+        android:singleLine="true"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"
+        android:backgroundTint="#FF5722"
+        android:onClick="calculate"
+        android:text="Calculate" />
+
+
+
+
+</LinearLayout>
